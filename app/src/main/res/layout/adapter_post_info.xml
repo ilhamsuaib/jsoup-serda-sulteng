@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="itemLink"
+            type="id.ilhamsuaib.serdasulteng.model.Link"/>
+    </data>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="11sp"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/ic_turned_in_white"
+        tools:text=" Majalah Pembangunan"
+        android:gravity="center_vertical"
+        android:text="@{itemLink.title}"
+        android:textColor="@color/defaultTextColor" />
+</layout>

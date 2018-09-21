@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black"/>
+        <item
+            android:id="@+id/menu_publikasi_bappeda"
+            android:title="Publikasi BAPPEDA"
+            android:icon="@drawable/ic_assignment_black"/>
+        <item
+            android:id="@+id/menu_doc_perancangan"
+            android:title="Dokumen Perancangan"
+            android:icon="@drawable/ic__file_black"/>
+        <item
+            android:id="@+id/menu_publikasi_bps"
+            android:title="Publikasi BPS"
+            android:icon="@drawable/ic_assessment_black"/>
+        <item
+            android:id="@+id/menu_publikasi_lain"
+            android:title="Publikasi Lain-Lain"
+            android:icon="@drawable/ic_folder_open_black"/>
+        <item
+            android:id="@+id/menu_kontak"
+            android:title="Hubungi Kami"
+            android:icon="@drawable/ic_contact_black"/>
+    </group>
+</menu>
